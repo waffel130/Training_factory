@@ -34,13 +34,4 @@ class bezoekersController extends AbstractController
         );
     }
 
-    /**
-     * @Route ("/overzicht_inschrijvingen", name="overzicht_inschrijvingen")
-     */
-    public function overzicht_inschrijvingen()
-    {
-        return $this->render('bezoeker/overzicht-inschrijvingen.html.twig', [
-            ]
-        );
-    }
 }
